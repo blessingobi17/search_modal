@@ -4,7 +4,7 @@ const Search = () => {
   return (
     <main className="flex flex-col items-center justify-center h-screen kk">
       <h1 className="text-xl font-medium text-primary">Week 8 Task</h1>
-      <section className="bg-white shadow-lg mt-8 w-1/4 p-5 rounded-md border border-gray-300">
+      <section className="bg-white shadow-lg mt-8 lg:w-1/4 md:w-2/4 w-4/5 p-5 rounded-md border border-gray-300">
         <div className="flex items-center gap-3 border-b border-b-gray-300 pb-2">
           <FaSearch className="cursor-pointer" />
           <form action="" className="w-full">
